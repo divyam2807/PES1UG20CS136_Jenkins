@@ -17,7 +17,7 @@ pipeline {
     stage('Deploy') {
       steps {
         echo 'Deployment stage'
-        //sh 'exit 1' //uncomment this for error part
+        ls '1234' 
       }
     }
   }
